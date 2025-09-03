@@ -1,0 +1,47 @@
+name: Create Release on Tag Push
+
+on:
+  push:
+    tags:
+      - '*' # 当任何新标签被推送到远程仓库时，触发此工作流
+
+jobs:
+  build_and_release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 必须有写入权限才能创建 Release
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install TeXLive and Compile PDF
+        uses: dante-ev/latex-action@v1
+        with:
+          root_file: main.tex # 你的主 .tex 文件名
+          compiler: xelatex   # 你的编译器
+
+      - name: Create Source Code Archive
+        run: |
+          # 获取标签名作为文件名
+          TAG_NAME=${{ github.ref_name }}
+          ZIP_NAME="${TAG_NAME}.zip"
+
+          # 压缩源码文件，排除Git和编译生成的中间文件
+          zip -r $ZIP_NAME . -x .git\* -x *.aux -x *.bbl -x *.blg -x *.log -x *.out -x *.synctex.gz -x *.toc -x *.pdf
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          # ${GITHUB_TOKEN} 提供了创建 Release 的权限
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # 自动获取标签名作为 Release 的标题
+          name: Release ${{ github.ref_name }}
+          # 自动获取标签描述作为 Release 的正文
+          body: "Release for tag ${{ github.ref_name }}"
+          # 上传 PDF 和 ZIP 文件作为 Release 资产
+          files: |
+            main.pdf
+            *.zip
