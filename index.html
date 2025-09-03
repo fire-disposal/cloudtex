@@ -3,11 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <title>论文预览</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+    embed {
+      width: 100vw;
+      height: 100vh;
+      border: none;
+      display: block;
+    }
+  </style>
 </head>
 <body>
-  <h1>论文 PDF 预览</h1>
-  <p>点击下方链接或直接预览：</p>
-  <a href="main.pdf" target="_blank">下载/查看 main.pdf</a>
-  <embed src="main.pdf" type="application/pdf" width="100%" height="800px" />
+  <embed src="main.pdf" type="application/pdf" />
 </body>
 </html>
