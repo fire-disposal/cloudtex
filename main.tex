@@ -1,6 +1,8 @@
 \documentclass{article}
 \usepackage{graphicx}
 \usepackage{cite}
+\usepackage{xeCJK}
+\setCJKmainfont{SimSun} % 宋体，支持中文显示
 
 \title{云编译测试文档}
 \author{作者姓名}
@@ -12,6 +14,10 @@
 
 \section{引言}
 这是一个用于测试云编译的简单 LaTeX 文档。
+
+本项目旨在展示如何在不同环境下编译和预览 PDF 文档，尤其是支持中文内容的排版。通过集成 xeCJK 包和设置中文字体，可以确保文档在各种平台上正确显示中文字符。
+
+下面将展示图片插入、参考文献等常用功能，并扩展部分中文示例文本以便测试字体兼容性。
 
 \section{图片示例}
 \begin{figure}[h]
@@ -26,5 +32,10 @@
 
 \bibliographystyle{plain}
 \bibliography{refs}
+
+\section{中文示例段落}
+在这个段落中，我们可以看到中文字体的显示效果。无论是在 Windows 还是 macOS 系统，只要安装了宋体（SimSun），都可以正常显示中文内容。
+
+此外，LaTeX 还支持多种中文字体，例如仿宋、黑体、楷体等，可以通过 \texttt{\textbackslash setCJKmainfont} 命令进行切换。
 
 \end{document}
