@@ -1,0 +1,215 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.7.1)  3 SEP 2025 17:25
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-06-09>
+(/opt/texlive/texdir/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/opt/texlive/texdir/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count271
+\c@section=\count272
+\c@subsection=\count273
+\c@subsubsection=\count274
+\c@paragraph=\count275
+\c@subparagraph=\count276
+\c@figure=\count277
+\c@table=\count278
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2025-06-09 L3 backend support: XeTeX
+\g__graphics_track_int=\count279
+\g__pdfannot_backend_int=\count280
+\g__pdfannot_backend_link_int=\count281
+)
+No file main.aux.
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+Missing character: There is no 云 (U+4E91) in font [lmroman17-regular]:mapping=t
+ex-text;!
+Missing character: There is no 编 (U+7F16) in font [lmroman17-regular]:mapping=t
+ex-text;!
+Missing character: There is no 译 (U+8BD1) in font [lmroman17-regular]:mapping=t
+ex-text;!
+Missing character: There is no 测 (U+6D4B) in font [lmroman17-regular]:mapping=t
+ex-text;!
+Missing character: There is no 试 (U+8BD5) in font [lmroman17-regular]:mapping=t
+ex-text;!
+Missing character: There is no 文 (U+6587) in font [lmroman17-regular]:mapping=t
+ex-text;!
+Missing character: There is no 档 (U+6863) in font [lmroman17-regular]:mapping=t
+ex-text;!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 11.
+Missing character: There is no 作 (U+4F5C) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 者 (U+8005) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 姓 (U+59D3) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 名 (U+540D) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 引 (U+5F15) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no 言 (U+8A00) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no 这 (U+8FD9) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 一 (U+4E00) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 个 (U+4E2A) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 用 (U+7528) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 于 (U+4E8E) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 测 (U+6D4B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 试 (U+8BD5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 云 (U+4E91) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 编 (U+7F16) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 译 (U+8BD1) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 简 (U+7B80) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 单 (U+5355) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 文 (U+6587) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 档 (U+6863) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 图 (U+56FE) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no 片 (U+7247) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no 示 (U+793A) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no 例 (U+4F8B) in font [lmroman12-bold]:mapping=tex-
+text;!
+File: figures/figure1.png Graphic file (type bmp)
+<figures/figure1.png>
+Missing character: There is no 示 (U+793A) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 例 (U+4F8B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 图 (U+56FE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 片 (U+7247) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 参 (U+53C2) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no 考 (U+8003) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no 文 (U+6587) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no 献 (U+732E) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no 如 (U+5982) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 文 (U+6587) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 献 (U+732E) in font [lmroman10-regular]:mapping=t
+ex-text;!
+
+LaTeX Warning: Citation `testref' on page 1 undefined on input line 25.
+
+Missing character: There is no 所 (U+6240) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 示 (U+793A) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=t
+ex-text;!
+No file main.bbl.
+
+
+[1
+
+] (./main.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-06-09>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1032 strings out of 468529
+ 17395 string characters out of 5449559
+ 419670 words of memory out of 5000000
+ 29440 multiletter control sequences out of 15000+600000
+ 629609 words of font info for 55 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 57i,6n,65p,198b,208s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main.pdf (1 page).
