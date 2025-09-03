@@ -13,11 +13,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install TeXLive
-        uses: dante-ev/latex-action@v2
+      - name: Compile LaTeX
+        uses: xu-cheng/latex-action@v2
         with:
-          root_file: main.tex # 将这里的 main.tex 替换为你的主论文文件名
-          compiler: xelatex   # 根据你的需求选择编译器，如 pdflatex, xelatex, lualatex
+          root_file: main.tex # 你的主论文文件名
+          compiler: xelatex   # 你的编译器
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

@@ -17,10 +17,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install TeXLive and Compile PDF
-        uses: dante-ev/latex-action@v2
+      - name: Compile LaTeX
+        uses: xu-cheng/latex-action@v2
         with:
-          root_file: main.tex # 你的主 .tex 文件名
+          root_file: main.tex # 你的主论文文件名
           compiler: xelatex   # 你的编译器
 
       - name: Create Source Code Archive
